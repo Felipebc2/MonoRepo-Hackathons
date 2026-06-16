@@ -1,0 +1,164 @@
+[22:02:11] inicializando Chromium (Playwright)
+[22:02:12] abrindo perfil: https://www.instagram.com/idpgraduacao/
+[22:02:13] se NÃO estiver logado, faça login na janela; depois volte e pressione ENTER.
+[22:02:16] [ALVO] abrir: https://www.instagram.com/p/DCSTOxnvPxy/
+[22:02:20] [ALVO] data do post (UTC): 2024-11-12T21:15:33+00:00 | cutoff >= 2024-11-12T00:00:00+00:00
+[22:02:28] [ALVO] expand_caption=True expand_comments=False
+[22:02:30] [ALVO] sem flag.
+[22:02:32] coletando links do grid do perfil…
+[22:02:32] scroll 1/120 — novos: 0 | total: 0
+[22:02:33] scroll 2/120 — novos: 0 | total: 0
+[22:02:34] scroll 3/120 — novos: 12 | total: 12
+[22:02:35] scroll 4/120 — novos: 0 | total: 12
+[22:02:37] scroll 5/120 — novos: 12 | total: 24
+[22:02:38] scroll 6/120 — novos: 0 | total: 24
+[22:02:39] scroll 7/120 — novos: 12 | total: 36
+[22:02:40] scroll 8/120 — novos: 12 | total: 48
+[22:02:41] scroll 9/120 — novos: 0 | total: 48
+[22:02:42] scroll 10/120 — novos: 12 | total: 60
+[22:02:43] scroll 11/120 — novos: 0 | total: 60
+[22:02:44] scroll 12/120 — novos: 12 | total: 72
+[22:02:46] scroll 13/120 — novos: 0 | total: 72
+[22:02:47] scroll 14/120 — novos: 12 | total: 84
+[22:02:48] scroll 15/120 — novos: 24 | total: 108
+[22:02:49] scroll 16/120 — novos: 0 | total: 108
+[22:02:50] scroll 17/120 — novos: 12 | total: 120
+[22:02:51] scroll 18/120 — novos: 12 | total: 132
+[22:02:53] scroll 19/120 — novos: 0 | total: 132
+[22:02:54] scroll 20/120 — novos: 12 | total: 144
+[22:02:55] scroll 21/120 — novos: 12 | total: 156
+[22:02:56] scroll 22/120 — novos: 0 | total: 156
+[22:02:57] scroll 23/120 — novos: 12 | total: 168
+[22:02:58] scroll 24/120 — novos: 0 | total: 168
+[22:02:59] scroll 25/120 — novos: 12 | total: 180
+[22:03:00] scroll 26/120 — novos: 0 | total: 180
+[22:03:01] scroll 27/120 — novos: 12 | total: 192
+[22:03:03] scroll 28/120 — novos: 0 | total: 192
+[22:03:04] scroll 29/120 — novos: 12 | total: 204
+[22:03:05] scroll 30/120 — novos: 0 | total: 204
+[22:03:06] scroll 31/120 — novos: 12 | total: 216
+[22:03:07] scroll 32/120 — novos: 0 | total: 216
+[22:03:08] scroll 33/120 — novos: 12 | total: 228
+[22:03:09] scroll 34/120 — novos: 12 | total: 240
+[22:03:10] scroll 35/120 — novos: 0 | total: 240
+[22:03:12] scroll 36/120 — novos: 12 | total: 252
+[22:03:13] scroll 37/120 — novos: 0 | total: 252
+[22:03:14] scroll 38/120 — novos: 12 | total: 264
+[22:03:15] scroll 39/120 — novos: 0 | total: 264
+[22:03:16] scroll 40/120 — novos: 12 | total: 276
+[22:03:17] scroll 41/120 — novos: 0 | total: 276
+[22:03:18] scroll 42/120 — novos: 12 | total: 288
+[22:03:19] scroll 43/120 — novos: 12 | total: 300
+[22:03:19] iniciando análise de 300 links (parando ao encontrar post < 2024-11-12).
+[22:03:19] [1] abrir: https://www.instagram.com/sejaidp/p/DP7KaH7DtcT/
+[22:03:22] [1] data do post (UTC): 2025-10-20T18:26:24+00:00 | cutoff >= 2024-11-12T00:00:00+00:00
+[22:03:30] [1] expand_caption=True expand_comments=False
+[22:03:32] [1] sem flag.
+[22:03:33] [2] abrir: https://www.instagram.com/idpgraduacao/reel/DMtJZ6nPyc1/
+[22:03:36] [2] data do post (UTC): 2025-07-31T14:31:54+00:00 | cutoff >= 2024-11-12T00:00:00+00:00
+[22:03:45] [2] expand_caption=True expand_comments=False
+[22:03:47] [2] sem flag.
+[22:03:48] [3] abrir: https://www.instagram.com/idpgraduacao/reel/DOHS8OPiQ0x/
+[22:03:50] [3] data do post (UTC): 2025-09-02T21:00:22+00:00 | cutoff >= 2024-11-12T00:00:00+00:00
+[22:03:59] [3] expand_caption=True expand_comments=False
+[22:04:01] [3] sem flag.
+[22:04:02] [4] abrir: https://www.instagram.com/idpgraduacao/reel/DQw4RD_ifzd/
+[22:04:04] [4] data do post (UTC): 2025-11-07T18:24:30+00:00 | cutoff >= 2024-11-12T00:00:00+00:00
+[22:04:13] [4] expand_caption=True expand_comments=False
+[22:04:15] [4] sem flag.
+[22:04:16] [5] abrir: https://www.instagram.com/caiovsck/reel/DQu70qDj1GE/
+[22:04:18] [5] data do post (UTC): 2025-11-07T17:01:41+00:00 | cutoff >= 2024-11-12T00:00:00+00:00
+[22:04:27] [5] expand_caption=True expand_comments=False
+[22:04:29] [5] sem flag.
+[22:04:30] [6] abrir: https://www.instagram.com/idpgraduacao/reel/DQsHIcnia_E/
+[22:04:32] [6] data do post (UTC): 2025-11-05T21:07:33+00:00 | cutoff >= 2024-11-12T00:00:00+00:00
+[22:04:41] [6] expand_caption=True expand_comments=False
+[22:04:43] [6] sem flag.
+[22:04:44] [7] abrir: https://www.instagram.com/sejaidp/p/DQpi4R6Duqo/
+[22:04:46] [7] data do post (UTC): 2025-11-04T20:50:06+00:00 | cutoff >= 2024-11-12T00:00:00+00:00
+[22:04:55] [7] expand_caption=True expand_comments=False
+[22:04:57] [7] sem flag.
+[22:04:58] [8] abrir: https://www.instagram.com/idpgraduacao/reel/DQm9hX7iWu3/
+[22:05:00] [8] data do post (UTC): 2025-11-04T02:25:15+00:00 | cutoff >= 2024-11-12T00:00:00+00:00
+[22:05:09] [8] expand_caption=True expand_comments=False
+[22:05:11] [8] sem flag.
+[22:05:12] [9] abrir: https://www.instagram.com/idpgraduacao/p/DQenfC0jYw6/
+[22:05:14] [9] data do post (UTC): 2025-10-31T15:19:16+00:00 | cutoff >= 2024-11-12T00:00:00+00:00
+[22:05:23] [9] expand_caption=True expand_comments=False
+[22:05:25] [9] sem flag.
+[22:05:26] [10] abrir: https://www.instagram.com/idpgraduacao/reel/DQcrafUCatc/
+[22:05:29] [10] data do post (UTC): 2025-10-30T20:27:42+00:00 | cutoff >= 2024-11-12T00:00:00+00:00
+[22:05:37] [10] expand_caption=True expand_comments=False
+[22:05:39] [10] sem flag.
+[22:05:40] [11] abrir: https://www.instagram.com/idpgraduacao/reel/DQaE7BsiQXg/
+[22:05:42] [11] data do post (UTC): 2025-10-29T21:05:05+00:00 | cutoff >= 2024-11-12T00:00:00+00:00
+[22:05:51] [11] expand_caption=True expand_comments=False
+[22:05:53] [11] sem flag.
+[22:05:54] [12] abrir: https://www.instagram.com/idpgraduacao/p/DQU7YrACUW9/
+[22:05:56] [12] data do post (UTC): 2025-10-27T21:00:09+00:00 | cutoff >= 2024-11-12T00:00:00+00:00
+[22:06:05] [12] expand_caption=True expand_comments=False
+[22:06:07] [12] sem flag.
+[22:06:08] [13] abrir: https://www.instagram.com/idpgraduacao/reel/DQMjLA4jSRG/
+[22:06:11] [13] data do post (UTC): 2025-10-24T14:59:44+00:00 | cutoff >= 2024-11-12T00:00:00+00:00
+[22:10:00] inicializando Chromium (Playwright)
+[22:10:01] abrindo perfil: https://www.instagram.com/idpgraduacao/
+[22:10:01] se NÃO estiver logado, faça login na janela; depois volte e pressione ENTER.
+[22:10:02] [ALVO] abrir: https://www.instagram.com/p/DCSTOxnvPxy/
+[22:10:05] [ALVO] data do post (UTC): 2024-11-12T21:15:33+00:00 | cutoff >= 2024-11-12T00:00:00+00:00
+[22:10:14] [ALVO] expand_caption=True expand_comments=False
+[22:10:16] [ALVO] sem flag.
+[22:10:17] coletando links do grid do perfil…
+[22:10:17] scroll 1/120 — novos: 0 | total: 0
+[22:10:18] scroll 2/120 — novos: 12 | total: 12
+[22:10:19] scroll 3/120 — novos: 0 | total: 12
+[22:10:21] scroll 4/120 — novos: 12 | total: 24
+[22:10:22] scroll 5/120 — novos: 0 | total: 24
+[22:10:23] scroll 6/120 — novos: 12 | total: 36
+[22:10:24] scroll 7/120 — novos: 0 | total: 36
+[22:10:25] scroll 8/120 — novos: 12 | total: 48
+[22:10:26] scroll 9/120 — novos: 0 | total: 48
+[22:10:27] scroll 10/120 — novos: 12 | total: 60
+[22:10:28] scroll 11/120 — novos: 0 | total: 60
+[22:10:29] scroll 12/120 — novos: 12 | total: 72
+[22:10:31] scroll 13/120 — novos: 0 | total: 72
+[22:10:32] scroll 14/120 — novos: 12 | total: 84
+[22:10:33] scroll 15/120 — novos: 0 | total: 84
+[22:10:34] scroll 16/120 — novos: 24 | total: 108
+[22:10:35] scroll 17/120 — novos: 0 | total: 108
+[22:10:36] scroll 18/120 — novos: 12 | total: 120
+[22:10:37] scroll 19/120 — novos: 0 | total: 120
+[22:10:38] scroll 20/120 — novos: 12 | total: 132
+[22:10:40] scroll 21/120 — novos: 0 | total: 132
+[22:10:41] scroll 22/120 — novos: 12 | total: 144
+[22:10:42] scroll 23/120 — novos: 0 | total: 144
+[22:10:43] scroll 24/120 — novos: 12 | total: 156
+[22:10:44] scroll 25/120 — novos: 0 | total: 156
+[22:10:45] scroll 26/120 — novos: 12 | total: 168
+[22:10:46] scroll 27/120 — novos: 0 | total: 168
+[22:10:47] scroll 28/120 — novos: 12 | total: 180
+[22:10:48] scroll 29/120 — novos: 0 | total: 180
+[22:10:49] scroll 30/120 — novos: 12 | total: 192
+[22:10:51] scroll 31/120 — novos: 0 | total: 192
+[22:10:52] scroll 32/120 — novos: 12 | total: 204
+[22:10:53] scroll 33/120 — novos: 0 | total: 204
+[22:10:54] scroll 34/120 — novos: 12 | total: 216
+[22:10:55] scroll 35/120 — novos: 0 | total: 216
+[22:10:56] scroll 36/120 — novos: 12 | total: 228
+[22:10:57] scroll 37/120 — novos: 0 | total: 228
+[22:10:58] scroll 38/120 — novos: 12 | total: 240
+[22:11:00] scroll 39/120 — novos: 12 | total: 252
+[22:11:01] scroll 40/120 — novos: 0 | total: 252
+[22:11:02] scroll 41/120 — novos: 12 | total: 264
+[22:11:03] scroll 42/120 — novos: 0 | total: 264
+[22:11:04] altura não aumentou: fim do feed carregável.
+[22:11:04] iniciando análise de 264 links (parando ao encontrar post < 2024-11-12).
+[22:11:04] [1] abrir: https://www.instagram.com/sejaidp/p/DP7KaH7DtcT/
+[22:11:07] [1] data do post (UTC): 2025-10-20T18:26:24+00:00 | cutoff >= 2024-11-12T00:00:00+00:00
+[22:11:15] [1] expand_caption=True expand_comments=False
+[22:11:17] [1] sem flag.
+[22:11:18] [2] abrir: https://www.instagram.com/idpgraduacao/reel/DMtJZ6nPyc1/
+[22:11:21] [2] data do post (UTC): 2025-07-31T14:31:54+00:00 | cutoff >= 2024-11-12T00:00:00+00:00
+[22:11:29] [2] expand_caption=True expand_comments=False
+[22:11:31] [2] sem flag.
+[22:11:32] [3] abrir: https://www.instagram.com/idpgraduacao/reel/DOHS8OPiQ0x/
+[22:11:35] [3] data do post (UTC): 2025-09-02T21:00:22+00:00 | cutoff >= 2024-11-12T00:00:00+00:00

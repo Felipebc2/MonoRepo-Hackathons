@@ -1,0 +1,164 @@
+:root {
+    --bg: #000000;
+    --panel: #000000;
+    --accent: #00ff00;
+    --text: #00ff00;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background: var(--bg);
+    font-family: "Press Start 2P", monospace;
+    color: var(--text);
+    -webkit-font-smoothing: none;
+    image-rendering: pixelated;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.screen {
+    width: 760px;
+    max-width: 95%;
+    border: 2px solid var(--accent);
+    padding: 18px;
+    background-color: var(--panel);
+}
+
+.logo {
+    margin-bottom: 12px;
+    border-bottom: 2px solid var(--accent);
+    padding-bottom: 8px;
+    font-size: 12px;
+}
+
+.logo-text {
+    color: var(--accent);
+    font-size: 12px;
+}
+
+.terminal {
+    padding: 18px;
+    min-height: 240px;
+    border: 2px dashed var(--accent);
+}
+
+.intro .line {
+    margin-bottom: 8px;
+    font-size: 11px;
+    color: var(--accent);
+}
+
+.intro .sub {
+    font-size: 10px;
+    margin-bottom: 14px;
+    color: var(--text);
+}
+
+.form-row {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 14px;
+    max-width: 480px;
+}
+
+input[name="username"] {
+    width: 100%;
+    padding: 10px;
+    font-family: inherit;
+    font-size: 11px;
+    border: 2px solid var(--accent);
+    background: var(--bg);
+    color: var(--text);
+    outline: none;
+    text-transform: uppercase;
+}
+
+button {
+    padding: 10px 16px;
+    font-family: inherit;
+    border: 2px solid var(--accent);
+    background: var(--bg);
+    color: var(--accent);
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.output {
+    margin-top: 6px;
+    padding: 10px;
+    font-size: 11px;
+    min-height: 26px;
+    color: var(--accent);
+}
+
+.hint {
+    margin-top: 14px;
+    font-size: 9px;
+    color: var(--text);
+    opacity: 0.8;
+}
+
+.credit {
+    margin-top: 12px;
+    font-size: 9px;
+    color: var(--accent);
+}
+
+.prompt {
+    display: inline-block;
+}
+
+.cursor {
+    display: inline-block;
+    width: 8px;
+    height: 12px;
+    background: var(--accent);
+    margin-left: 6px;
+    animation: blink 1s steps(1) infinite;
+}
+
+@keyframes blink {
+
+    0%,
+    50% {
+        opacity: 1
+    }
+
+    51%,
+    100% {
+        opacity: 0
+    }
+}
+
+@media (max-width:520px) {
+    .screen {
+        padding: 12px
+    }
+
+    .terminal {
+        padding: 12px
+    }
+
+    input[name="username"] {
+        padding: 8px;
+        font-size: 9px
+    }
+
+    button {
+        padding: 8px 10px;
+        font-size: 9px
+    }
+}

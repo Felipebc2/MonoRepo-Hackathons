@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>TERMINAL</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="screen">
+        <header class="logo">
+            <div class="logo-text">Terminal</div>
+        </header>
+
+        <main class="terminal">
+            <div class="intro">
+                <p class="line">&gt; Hellow, World!</p>
+                <p class="sub">Entre com um nome:</p>
+            </div>
+
+            <form id="form">
+                <div class="form-row">
+                    <input name="username" id="username" placeholder="GUEST" maxlength="64" />
+                    <button type="submit">OK</button>
+                </div>
+            </form>
+
+            <div class="output" id="output"></div>
+        </main>
+
+        <footer class="credit">
+            <span>M</span>
+        </footer>
+    </div>
+
+
+    <script>
+        const form = document.getElementById('form');
+        const output = document.getElementById('output');
+
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const username = document.getElementById('username').value || 'GUEST';
+
+            try {
+                const r = await fetch('/api?username=' + encodeURIComponent(username));
+                const text = await r.text();
+                output.textContent = text;
+            } catch (err) {
+                output.textContent = 'Erro interno';
+            }
+        });
+    </script>
+</body>
+
+</html>
