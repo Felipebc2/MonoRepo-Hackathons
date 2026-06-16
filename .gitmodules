@@ -1,0 +1,3 @@
+[submodule "ShareBite"]
+	path = ShareBite
+	url = git@github.com:Felipebc2/Hackathon-1.25.git
